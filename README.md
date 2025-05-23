@@ -12,20 +12,20 @@ Find out more here: [https://developer.paypal.com/docs/api/orders/v2/](https://d
 Install the gem from the command line:
 
 ```bash
-gem install pay-test-sdk -v 2.6.7
+gem install pay-test-sdk -v 14.2.9
 ```
 
 Or add the gem to your Gemfile and run `bundle`:
 
 ```ruby
-gem 'pay-test-sdk', '2.6.7'
+gem 'pay-test-sdk', '14.2.9'
 ```
 
-For additional gem details, see the [RubyGems page for the pay-test-sdk gem](https://rubygems.org/gems/pay-test-sdk/versions/2.6.7).
+For additional gem details, see the [RubyGems page for the pay-test-sdk gem](https://rubygems.org/gems/pay-test-sdk/versions/14.2.9).
 
 ## Initialize the API Client
 
-**_Note:_** Documentation for the client can be found [here.](https://www.github.com/tahaali2000/pay-test-ruby-sdk/tree/2.6.7/doc/client.md)
+**_Note:_** Documentation for the client can be found [here.](https://www.github.com/tahaali2000/pay-test-ruby-sdk/tree/14.2.9/doc/client.md)
 
 The following parameters are configurable for the API Client:
 
@@ -41,8 +41,8 @@ The following parameters are configurable for the API Client:
 | retry_statuses | `Array` | A list of HTTP statuses to retry. <br> **Default: [408, 413, 429, 500, 502, 503, 504, 521, 522, 524]** |
 | retry_methods | `Array` | A list of HTTP methods to retry. <br> **Default: %i[get put]** |
 | http_callback | `HttpCallBack` | The Http CallBack allows defining callables for pre and post API calls. |
-| logging_configuration | [`LoggingConfiguration`](https://www.github.com/tahaali2000/pay-test-ruby-sdk/tree/2.6.7/doc/logging-configuration.md) | The SDK logging configuration for API calls |
-| client_credentials_auth_credentials | [`ClientCredentialsAuthCredentials`](https://www.github.com/tahaali2000/pay-test-ruby-sdk/tree/2.6.7/doc/auth/oauth-2-client-credentials-grant.md) | The credential object for OAuth 2 Client Credentials Grant |
+| logging_configuration | [`LoggingConfiguration`](https://www.github.com/tahaali2000/pay-test-ruby-sdk/tree/14.2.9/doc/logging-configuration.md) | The SDK logging configuration for API calls |
+| client_credentials_auth_credentials | [`ClientCredentialsAuthCredentials`](https://www.github.com/tahaali2000/pay-test-ruby-sdk/tree/14.2.9/doc/auth/oauth-2-client-credentials-grant.md) | The credential object for OAuth 2 Client Credentials Grant |
 
 The API client can be initialized as follows:
 
@@ -80,30 +80,30 @@ The SDK can be configured to use a different environment for making API calls. A
 
 This API uses the following authentication schemes.
 
-* [`Oauth2 (OAuth 2 Client Credentials Grant)`](https://www.github.com/tahaali2000/pay-test-ruby-sdk/tree/2.6.7/doc/auth/oauth-2-client-credentials-grant.md)
+* [`Oauth2 (OAuth 2 Client Credentials Grant)`](https://www.github.com/tahaali2000/pay-test-ruby-sdk/tree/14.2.9/doc/auth/oauth-2-client-credentials-grant.md)
 
 ## List of APIs
 
-* [Orders](https://www.github.com/tahaali2000/pay-test-ruby-sdk/tree/2.6.7/doc/controllers/orders.md)
-* [Payments](https://www.github.com/tahaali2000/pay-test-ruby-sdk/tree/2.6.7/doc/controllers/payments.md)
-* [Vault](https://www.github.com/tahaali2000/pay-test-ruby-sdk/tree/2.6.7/doc/controllers/vault.md)
+* [Orders](https://www.github.com/tahaali2000/pay-test-ruby-sdk/tree/14.2.9/doc/controllers/orders.md)
+* [Payments](https://www.github.com/tahaali2000/pay-test-ruby-sdk/tree/14.2.9/doc/controllers/payments.md)
+* [Vault](https://www.github.com/tahaali2000/pay-test-ruby-sdk/tree/14.2.9/doc/controllers/vault.md)
 
 ## SDK Infrastructure
 
 ### Configuration
 
-* [AbstractLogger](https://www.github.com/tahaali2000/pay-test-ruby-sdk/tree/2.6.7/doc/abstract-logger.md)
-* [LoggingConfiguration](https://www.github.com/tahaali2000/pay-test-ruby-sdk/tree/2.6.7/doc/logging-configuration.md)
-* [RequestLoggingConfiguration](https://www.github.com/tahaali2000/pay-test-ruby-sdk/tree/2.6.7/doc/request-logging-configuration.md)
-* [ResponseLoggingConfiguration](https://www.github.com/tahaali2000/pay-test-ruby-sdk/tree/2.6.7/doc/response-logging-configuration.md)
+* [AbstractLogger](https://www.github.com/tahaali2000/pay-test-ruby-sdk/tree/14.2.9/doc/abstract-logger.md)
+* [LoggingConfiguration](https://www.github.com/tahaali2000/pay-test-ruby-sdk/tree/14.2.9/doc/logging-configuration.md)
+* [RequestLoggingConfiguration](https://www.github.com/tahaali2000/pay-test-ruby-sdk/tree/14.2.9/doc/request-logging-configuration.md)
+* [ResponseLoggingConfiguration](https://www.github.com/tahaali2000/pay-test-ruby-sdk/tree/14.2.9/doc/response-logging-configuration.md)
 
 ### HTTP
 
-* [HttpResponse](https://www.github.com/tahaali2000/pay-test-ruby-sdk/tree/2.6.7/doc/http-response.md)
-* [HttpRequest](https://www.github.com/tahaali2000/pay-test-ruby-sdk/tree/2.6.7/doc/http-request.md)
+* [HttpResponse](https://www.github.com/tahaali2000/pay-test-ruby-sdk/tree/14.2.9/doc/http-response.md)
+* [HttpRequest](https://www.github.com/tahaali2000/pay-test-ruby-sdk/tree/14.2.9/doc/http-request.md)
 
 ### Utilities
 
-* [ApiHelper](https://www.github.com/tahaali2000/pay-test-ruby-sdk/tree/2.6.7/doc/api-helper.md)
-* [DateTimeHelper](https://www.github.com/tahaali2000/pay-test-ruby-sdk/tree/2.6.7/doc/date-time-helper.md)
+* [ApiHelper](https://www.github.com/tahaali2000/pay-test-ruby-sdk/tree/14.2.9/doc/api-helper.md)
+* [DateTimeHelper](https://www.github.com/tahaali2000/pay-test-ruby-sdk/tree/14.2.9/doc/date-time-helper.md)
 
