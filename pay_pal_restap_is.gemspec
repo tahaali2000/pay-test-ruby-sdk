@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = 'pay-test-sdk'
-  s.version = '1.2.6'
+  s.version = '2.6.7'
   s.summary = 'tr'
   s.description = 'test'
   s.authors = ['test']
